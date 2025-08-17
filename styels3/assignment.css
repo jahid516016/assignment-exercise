@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      padding: 2rem 0;    
+}
+.section-container{
+  text-align: center;
+  padding: 4em 0;
+}
+header button {
+      background-color: #4f46e5;
+      color: white;
+      border: none;
+      padding: 0.5rem 1.5rem;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+    .logo{
+      background-color: #4f46e5;
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: white;
+
+    }
+    .action{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+      margin: 4rem 0;
+      justify-content: space-between;
+      
+    }
+    .action .text{
+      flex: 1;
+      min-width: 250px;
+    }
+    .action .text button{
+       margin-top: 1rem;
+      background-color: #4f46e5;
+      color: white;
+      border: none;
+      padding: 0.5rem 1.5rem;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+    .action img {
+      flex: 1;
+      min-width: 150px;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+.user-container{
+  display: flex;
+      justify-content: space-around;
+      background-color: #e5e7ff;
+      padding: 2rem 0;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 4rem;
+}
+.user-container h2{
+  font-size: 1.5rem;
+      color: #4f46e5;
+}
+ .user-container p {
+      font-weight: 600;
+      color:rgba(0, 0, 0, 0.5) ;
+      
+    }
