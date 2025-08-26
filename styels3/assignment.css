@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: #f5f7ff url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+   background: #f5f7ff url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
   color: #111;
 }
 
@@ -148,10 +148,50 @@ form .btn-primary {
   padding: 2rem;
   text-align: center;
   box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+
+  
 }
 .footer .logo {
   font-size: 24px;
 }
 .contact{
   display: flex;
+  gap: 60px;
+}
+/* Footer Navigation */
+.footer-nav {
+  background: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer.footer-nav > p {
+  color: #7d7d7d !important;
+  font-size: 16px;
+  margin: 0 0 15px;
+}
+
+
+.footer-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-nav ul li {
+  display: inline-block;
+}
+
+.footer-nav ul li a {
+  text-decoration: none;
+  color: #7d7d7d;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav ul li a:hover {
+  color: #333;
 }
